@@ -7,7 +7,7 @@ Checks a string against the HaveIBeenPwned compromised password database using t
 ## New-RandomPerson
 Generates 1 or more random people for testing purposes. The objects look like this:
 
-FirstName>     : Greg  
+|FirstName|    : Greg|
 LastName     : Alphonso  
 Username     : Greg.Alphonso  
 JobTitle     : Technical Specialist  
