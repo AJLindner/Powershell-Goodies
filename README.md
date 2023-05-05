@@ -7,15 +7,16 @@ Checks a string against the HaveIBeenPwned compromised password database using t
 ## New-RandomPerson
 Generates 1 or more random people for testing purposes. The objects look like this:
 
-| ----------- | ----------- |
-|FirstName|    : Greg|
-LastName     : Alphonso  
-Username     : Greg.Alphonso  
-JobTitle     : Technical Specialist  
-Department   : Finance  
-Location     : NY - New York City  
-EmployeeType : Temporary Employee  
-Password     : 1abhs;-^0(uOeX^{w5+&J  
+```
+FirstName    : Greg
+LastName     : Alphonso
+Username     : Greg.Alphonso
+JobTitle     : Technical Specialist
+Department   : Finance
+Location     : NY - New York City
+EmployeeType : Temporary Employee
+Password     : 1abhs;-^0(uOeX^{w5+&J
+```
 
 Username is based on the $UsernameFormat parameter, and will replace {FirstName} and {LastName} in the string.
 JobTitle, Department, and Location are selected at random from the parameters. Defaults are included.
