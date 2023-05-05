@@ -195,5 +195,5 @@ function New-RandomPerson {
         }
     }
 
-    Return $PersonList
+    Return $PersonList | Sort-Object {Get-Random} | Select-Object -First $Count
 }
