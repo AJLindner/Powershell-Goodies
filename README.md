@@ -32,7 +32,7 @@ This script uses the [EFF's Long Wordlist for Random Passphrases](https://www.ef
 
 | Parameter         | Default Value | Description |
 | --------          | -------       | -------       |
-| Words             | [EFF Word List](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)       | The delimiter to use between words |
+| Words             | [EFF Word List](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)       | The list of words to randomly select from |
 | Delimiter         | -             | The delimiter to use between words |
 | WordCount         | 3             | How many words to include in the passphrase |
 | DigitCount        | 0             | How many random digits to append to the passphrase |
