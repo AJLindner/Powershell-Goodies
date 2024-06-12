@@ -1,3 +1,13 @@
+<#
+    .SYNOPSIS
+        New-RandomPassword
+        
+        Generates a random password based on the provided complexity requirements.
+    
+    .LINK
+        https://github.com/AJLindner/Powershell-Goodies
+#>
+
 function New-RandomPassword {
 
     [cmdletbinding()]

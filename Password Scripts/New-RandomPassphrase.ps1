@@ -1,3 +1,15 @@
+<#
+    .SYNOPSIS
+        New-RandomPassphrase
+        
+        Generates a random passphrase with various options for meeting complexity requirements.
+
+        This script uses the [EFF's Long Wordlist for Random Passphrases](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases) as its source.
+        You may download the list offline and provide it or any other word list as a `string[]` list via the `-Words` parameter.
+    
+    .LINK
+        https://github.com/AJLindner/Powershell-Goodies
+#>
 function New-RandomPassphrase {
 
     [cmdletbinding()]

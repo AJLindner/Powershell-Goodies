@@ -14,6 +14,9 @@
 
         When making the API request, this function sends only the first 5 characters of the hash,
         per the HIBP API guidelines to utilize its secure k-anonimity model.
+    
+    .LINK
+        https://github.com/AJLindner/Powershell-Goodies
 #>
 function Confirm-PwnedPassword {
 
